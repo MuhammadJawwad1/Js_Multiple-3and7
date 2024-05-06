@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var num = prompt("enter your number")
+        if(num%3===0 && num%7!==0){
+            console.log("given number is multiple by 3");
+        }
+        else if(num%7===0 && num%3!==0){
+            console.log("given number is multiple by 7");
+        }
+        else if(num%3===0 && num%7===0){
+            console.log("your number is multiple by both 3 and 7");
+        }
+        else{
+            console.log("your number is not multiple by 3 or 7");
+        }
+    </script>
+</body>
+</html>
